@@ -1,0 +1,14 @@
+adapters: 
+  - http
+debug: false
+enableVerify: true
+verifyKey: INITKEYiDR8NJQW
+singleMode: false
+cacheSize: 4096
+adapterSettings: {}
+adapterSettings:
+  ## 详情看 http adapter 使用说明 配置
+  http:
+    host: localhost
+    port: 6666
+    cors: [*]
